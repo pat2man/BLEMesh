@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D37CD4691F9FD4140013C01A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37CD4681F9FD4140013C01A /* main.swift */; };
+		D37CD4701F9FD4BC0013C01A /* BLEMeshScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37CD46F1F9FD4BC0013C01A /* BLEMeshScanner.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,9 @@
 /* Begin PBXFileReference section */
 		D37CD4651F9FD4140013C01A /* BLEMesh */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BLEMesh; sourceTree = BUILT_PRODUCTS_DIR; };
 		D37CD4681F9FD4140013C01A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		D37CD46F1F9FD4BC0013C01A /* BLEMeshScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEMeshScanner.swift; sourceTree = "<group>"; };
+		D37CD4711FA00C430013C01A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D37CD4721FA00CBF0013C01A /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +45,8 @@
 		D37CD45C1F9FD4140013C01A = {
 			isa = PBXGroup;
 			children = (
+				D37CD4711FA00C430013C01A /* README.md */,
+				D37CD4721FA00CBF0013C01A /* LICENSE.md */,
 				D37CD4671F9FD4140013C01A /* BLEMesh */,
 				D37CD4661F9FD4140013C01A /* Products */,
 			);
@@ -58,6 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				D37CD4681F9FD4140013C01A /* main.swift */,
+				D37CD46F1F9FD4BC0013C01A /* BLEMeshScanner.swift */,
 			);
 			path = BLEMesh;
 			sourceTree = "<group>";
@@ -120,6 +127,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D37CD4701F9FD4BC0013C01A /* BLEMeshScanner.swift in Sources */,
 				D37CD4691F9FD4140013C01A /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

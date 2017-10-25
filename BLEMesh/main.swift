@@ -6,7 +6,14 @@
 //  Copyright © 2017 Patrick Tescher. All rights reserved.
 //
 
-import Foundation
+import CoreBluetooth
 
-print("Hello, World!")
+let runLoop = RunLoop.current
 
+let scanner = BLEMeshScanner()
+
+let central = CBCentralManager(delegate: scanner, queue: DispatchQueue.main)
+
+while scanner.shouldKeepRunning && runLoop.run(mode: .defaultRunLoopMode, before: .distantFuture) {
+    
+}
